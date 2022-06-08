@@ -29,3 +29,9 @@ LINEのチャットに送られてきた画像を、指定したファイル名�
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 使用技術
+* TypeScript: Lambda関数の開発言語
+* Amplify: 開発プラットフォーム
+* DynamoDB: ユーザー情報・ファイル情報の保存DB
+* S3: ユーザーが送信した画像の保存DB
+* AWS Lambda
+* API Gateway
