@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "lib": ["dom", "esnext"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "outDir": "./",
+        "baseUrl": "./",
+        "rootDir": "./ts",
+        "paths": {
+            "src": ["./ts"]
+        }
+
+    },
+    "include": [
+        "./ts/index.ts"
+    ],
+    "exclude": []
+
+}

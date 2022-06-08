@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/webhook",
+      "lambdaFunction": "ImageToPDFMainLambda",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/webhook"
+    }
+  ],
+  "resourceName": "ImageToPDFMainAPI",
+  "apiName": "ImageToPDFMainAPI",
+  "functionArns": [
+    {
+      "lambdaFunction": "ImageToPDFMainLambda"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-imagetopdflinebot-dev-113648-authRole",
+    "unAuthRoleName": "amplify-imagetopdflinebot-dev-113648-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "ImageToPDFMainLambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

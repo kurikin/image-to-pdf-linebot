@@ -1,0 +1,5 @@
+{
+    "tableName": "image-to-pdf-dynamodb-user",
+    "partitionKeyName": "user_id",
+    "partitionKeyType": "S"
+}

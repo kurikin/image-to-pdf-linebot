@@ -1,0 +1,19 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "ImageToPDFMainS3": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "ImageToPDFMainDynamoDB": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "storage": {
+      "ImageToPDFMainS3": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "ImageToPDFMainDynamoDB": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "secretNames": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "channelSecret",
+      "environmentVariableName": "CHANNEL_SECRET"
+    },
+    {
+      "cloudFormationParameterName": "channelAccessToken",
+      "environmentVariableName": "CHANNEL_ACCESS_TOKEN"
+    },
+    {
+      "cloudFormationParameterName": "pdfDownloadUrl",
+      "environmentVariableName": "PDF_DOWNLOAD_URL"
+    }
+  ]
+}
