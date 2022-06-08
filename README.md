@@ -20,7 +20,7 @@ LINEのチャットに送られてきた画像を、指定したファイル名�
 <div align="right">(<a href="#top">back to top</a>)</div>
 
 ## スクリーンショット
-<img src="screenshot.png" />
+<img width="30%" src="screenshot.png" />
 
 ## 作ったきっかけ
 * 大学の課題を提出する際に、「携帯で撮影したレポートの写真を**PDFに変換して提出**」するケースが多い。
